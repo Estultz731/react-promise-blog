@@ -52,3 +52,12 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+input.right {
+  border-radius: 10px;
+  color: black;
+}
+
+input.right:hover {
+  color: black;
+}
