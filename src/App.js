@@ -12,8 +12,10 @@ const Nav = () =>
 const Post = post => 
 (<div className="col-lg-12">
     <div className="card">
-      <h2>{post.title}</h2>
-      <p>{post.body}</p>
+      <div className="post">
+        <h2>{post.title}</h2>
+        <p>{post.body}</p>
+      </div>
     </div>
 </div>)
 
